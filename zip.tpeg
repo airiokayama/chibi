@@ -1,1 +1,1 @@
-$pegpyexample-gzip.tpegOK Zip   => [#PostalCode[#Code’123’][#Code’4567’]]OK Zip   => [#PostalCode[#Code’999’][#Code’0000’]]
+defcalc(t):ift.tag ==’Int’:returnint(str(t))elift.tag ==’Add’:returncalc(t[0]) + calc(t[1])elift.tag ==’Mul’:returncalc(t[0]) * calc(t[1])else:print(f’TODO{t.tag})’return0t=parser(’1+2*3’)print(calc(t))
