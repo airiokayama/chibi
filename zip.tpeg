@@ -1,1 +1,1 @@
-defcalc(t):ift.tag ==’Int’:returnint(str(t))elift.tag ==’Add’:returncalc(t[0]) + calc(t[1])elift.tag ==’Mul’:returncalc(t[0]) * calc(t[1])else:print(f’TODO{t.tag})’return0t=parser(’1+2*3’)print(calc(t))
+defrun(s:str):(’TODO’,s)defmain():s=input(’>>>’)run(s)
