@@ -1,2 +1,1 @@
-exampleZip123-4567exampleZip’’’999-0000’’’Zip={Code’-’Code#Postal
-Code}Code={[0-9]+#Code}
+$pegpyexample-gzip.tpegOK Zip   => [#PostalCode[#Code’123’][#Code’4567’]]OK Zip   => [#PostalCode[#Code’999’][#Code’0000’]]
