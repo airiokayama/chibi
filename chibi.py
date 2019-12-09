@@ -1,6 +1,1 @@
-example Expr (1+2)*3
-example Expr 1+2*3
-Expr = { Prod '+' Prod #Add } / Prod
-Prod = { Value '*' Value #Mul } / Value
-Value = { DIGIT+ #Int } / '(' Expr ')' 
-DIGIT = [0-9]
+IfΫϥε͸ɺ৚݅ࣜ(cond), thenࣜ(then), elseࣜ(else)Λ࣋ͭɻclassIf(Expr):__slots__ = [’cond’,’then’,’else’]def__init__(cond, then, else_):self.cond = condself.then = thenself.else=else
